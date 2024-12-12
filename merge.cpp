@@ -118,6 +118,6 @@ public:
 
 int main() {
   typedef typename MergeSort<Array<7, 8, 3, 4, 67, 9>>::Output S;
-
+  // note that S is Array<3, 4, 7, 8, 9, 67>
   S arr;
 }
